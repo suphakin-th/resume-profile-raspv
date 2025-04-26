@@ -1,0 +1,36 @@
+/* Add these styles to your global.css or create a new CSS file and import it */
+
+.progress-green {
+	accent-color: #059669;
+}
+  
+.progress-green::-webkit-progress-value {
+  background-color: #059669;
+}
+
+.progress-green::-moz-progress-bar {
+  background-color: #059669;
+}
+
+/* For Microsoft browsers */
+.progress-green::-ms-fill {
+  background-color: #059669;
+}
+
+/* Define the progress-green class to style the actual progress bar */
+.progress-green::-webkit-progress-value {
+  background-color: #10b981; /* Tailwind's green-500 color or choose your own shade */
+}
+
+.progress-green::-moz-progress-bar {
+  background-color: #10b981;
+}
+
+.progress-green::-ms-fill {
+  background-color: #10b981;
+}
+
+/* This targets the progress element itself */
+.progress-green {
+  --progress-foreground: #10b981;
+}
